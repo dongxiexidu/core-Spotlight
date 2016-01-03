@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5898EC2C1C382D89005F8D48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5898EC2B1C382D89005F8D48 /* main.m */; };
+		5898EC2F1C382D89005F8D48 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5898EC2E1C382D89005F8D48 /* AppDelegate.m */; };
+		5898EC3A1C382D89005F8D48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5898EC381C382D89005F8D48 /* LaunchScreen.storyboard */; };
+		5898EC451C382D89005F8D48 /* Core_Spotlight____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5898EC441C382D89005F8D48 /* Core_Spotlight____Tests.m */; };
+		5898EC501C382D89005F8D48 /* Core_Spotlight____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5898EC4F1C382D89005F8D48 /* Core_Spotlight____UITests.m */; };
+		5898EC5F1C382E49005F8D48 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 5898EC5E1C382E49005F8D48 /* Person.m */; };
+		5898EC621C382E87005F8D48 /* DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 5898EC611C382E87005F8D48 /* DataSource.m */; };
+		5898EC651C383283005F8D48 /* FriendTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5898EC641C383283005F8D48 /* FriendTableViewController.m */; };
+		5898EC671C3835F1005F8D48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5898EC661C3835F1005F8D48 /* Assets.xcassets */; };
+		5898EC691C383877005F8D48 /* CoreSpotlight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5898EC681C383877005F8D48 /* CoreSpotlight.framework */; };
+		5898EC6D1C383FC4005F8D48 /* DXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5898EC6B1C383FC4005F8D48 /* DXViewController.m */; };
+		5898EC6E1C383FC4005F8D48 /* DXViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5898EC6C1C383FC4005F8D48 /* DXViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5898EC411C382D89005F8D48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5898EC1F1C382D89005F8D48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5898EC261C382D89005F8D48;
+			remoteInfo = "Core Spotlight的索引器";
+		};
+		5898EC4C1C382D89005F8D48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5898EC1F1C382D89005F8D48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5898EC261C382D89005F8D48;
+			remoteInfo = "Core Spotlight的索引器";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5898EC271C382D89005F8D48 /* Core Spotlight的索引器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Core Spotlight的索引器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5898EC2B1C382D89005F8D48 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5898EC2D1C382D89005F8D48 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5898EC2E1C382D89005F8D48 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5898EC391C382D89005F8D48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5898EC3B1C382D89005F8D48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5898EC401C382D89005F8D48 /* Core Spotlight的索引器Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Core Spotlight的索引器Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5898EC441C382D89005F8D48 /* Core_Spotlight____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Core_Spotlight____Tests.m"; sourceTree = "<group>"; };
+		5898EC461C382D89005F8D48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5898EC4B1C382D89005F8D48 /* Core Spotlight的索引器UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Core Spotlight的索引器UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5898EC4F1C382D89005F8D48 /* Core_Spotlight____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Core_Spotlight____UITests.m"; sourceTree = "<group>"; };
+		5898EC511C382D89005F8D48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5898EC5D1C382E49005F8D48 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		5898EC5E1C382E49005F8D48 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		5898EC601C382E87005F8D48 /* DataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSource.h; sourceTree = "<group>"; };
+		5898EC611C382E87005F8D48 /* DataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSource.m; sourceTree = "<group>"; };
+		5898EC631C383283005F8D48 /* FriendTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendTableViewController.h; sourceTree = "<group>"; };
+		5898EC641C383283005F8D48 /* FriendTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendTableViewController.m; sourceTree = "<group>"; };
+		5898EC661C3835F1005F8D48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5898EC681C383877005F8D48 /* CoreSpotlight.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreSpotlight.framework; path = System/Library/Frameworks/CoreSpotlight.framework; sourceTree = SDKROOT; };
+		5898EC6A1C383FC4005F8D48 /* DXViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXViewController.h; sourceTree = "<group>"; };
+		5898EC6B1C383FC4005F8D48 /* DXViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXViewController.m; sourceTree = "<group>"; };
+		5898EC6C1C383FC4005F8D48 /* DXViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DXViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5898EC241C382D89005F8D48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5898EC691C383877005F8D48 /* CoreSpotlight.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5898EC3D1C382D89005F8D48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5898EC481C382D89005F8D48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5898EC1E1C382D89005F8D48 = {
+			isa = PBXGroup;
+			children = (
+				5898EC681C383877005F8D48 /* CoreSpotlight.framework */,
+				5898EC291C382D89005F8D48 /* Core Spotlight的索引器 */,
+				5898EC431C382D89005F8D48 /* Core Spotlight的索引器Tests */,
+				5898EC4E1C382D89005F8D48 /* Core Spotlight的索引器UITests */,
+				5898EC281C382D89005F8D48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5898EC281C382D89005F8D48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5898EC271C382D89005F8D48 /* Core Spotlight的索引器.app */,
+				5898EC401C382D89005F8D48 /* Core Spotlight的索引器Tests.xctest */,
+				5898EC4B1C382D89005F8D48 /* Core Spotlight的索引器UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5898EC291C382D89005F8D48 /* Core Spotlight的索引器 */ = {
+			isa = PBXGroup;
+			children = (
+				5898EC2D1C382D89005F8D48 /* AppDelegate.h */,
+				5898EC2E1C382D89005F8D48 /* AppDelegate.m */,
+				5898EC631C383283005F8D48 /* FriendTableViewController.h */,
+				5898EC641C383283005F8D48 /* FriendTableViewController.m */,
+				5898EC6A1C383FC4005F8D48 /* DXViewController.h */,
+				5898EC6B1C383FC4005F8D48 /* DXViewController.m */,
+				5898EC6C1C383FC4005F8D48 /* DXViewController.xib */,
+				5898EC5D1C382E49005F8D48 /* Person.h */,
+				5898EC5E1C382E49005F8D48 /* Person.m */,
+				5898EC601C382E87005F8D48 /* DataSource.h */,
+				5898EC611C382E87005F8D48 /* DataSource.m */,
+				5898EC381C382D89005F8D48 /* LaunchScreen.storyboard */,
+				5898EC661C3835F1005F8D48 /* Assets.xcassets */,
+				5898EC3B1C382D89005F8D48 /* Info.plist */,
+				5898EC2A1C382D89005F8D48 /* Supporting Files */,
+			);
+			path = "Core Spotlight的索引器";
+			sourceTree = "<group>";
+		};
+		5898EC2A1C382D89005F8D48 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5898EC2B1C382D89005F8D48 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5898EC431C382D89005F8D48 /* Core Spotlight的索引器Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5898EC441C382D89005F8D48 /* Core_Spotlight____Tests.m */,
+				5898EC461C382D89005F8D48 /* Info.plist */,
+			);
+			path = "Core Spotlight的索引器Tests";
+			sourceTree = "<group>";
+		};
+		5898EC4E1C382D89005F8D48 /* Core Spotlight的索引器UITests */ = {
+			isa = PBXGroup;
+			children = (
+				5898EC4F1C382D89005F8D48 /* Core_Spotlight____UITests.m */,
+				5898EC511C382D89005F8D48 /* Info.plist */,
+			);
+			path = "Core Spotlight的索引器UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5898EC261C382D89005F8D48 /* Core Spotlight的索引器 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5898EC541C382D89005F8D48 /* Build configuration list for PBXNativeTarget "Core Spotlight的索引器" */;
+			buildPhases = (
+				5898EC231C382D89005F8D48 /* Sources */,
+				5898EC241C382D89005F8D48 /* Frameworks */,
+				5898EC251C382D89005F8D48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Core Spotlight的索引器";
+			productName = "Core Spotlight的索引器";
+			productReference = 5898EC271C382D89005F8D48 /* Core Spotlight的索引器.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5898EC3F1C382D89005F8D48 /* Core Spotlight的索引器Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5898EC571C382D89005F8D48 /* Build configuration list for PBXNativeTarget "Core Spotlight的索引器Tests" */;
+			buildPhases = (
+				5898EC3C1C382D89005F8D48 /* Sources */,
+				5898EC3D1C382D89005F8D48 /* Frameworks */,
+				5898EC3E1C382D89005F8D48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5898EC421C382D89005F8D48 /* PBXTargetDependency */,
+			);
+			name = "Core Spotlight的索引器Tests";
+			productName = "Core Spotlight的索引器Tests";
+			productReference = 5898EC401C382D89005F8D48 /* Core Spotlight的索引器Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5898EC4A1C382D89005F8D48 /* Core Spotlight的索引器UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5898EC5A1C382D89005F8D48 /* Build configuration list for PBXNativeTarget "Core Spotlight的索引器UITests" */;
+			buildPhases = (
+				5898EC471C382D89005F8D48 /* Sources */,
+				5898EC481C382D89005F8D48 /* Frameworks */,
+				5898EC491C382D89005F8D48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5898EC4D1C382D89005F8D48 /* PBXTargetDependency */,
+			);
+			name = "Core Spotlight的索引器UITests";
+			productName = "Core Spotlight的索引器UITests";
+			productReference = 5898EC4B1C382D89005F8D48 /* Core Spotlight的索引器UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5898EC1F1C382D89005F8D48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = don;
+				TargetAttributes = {
+					5898EC261C382D89005F8D48 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = MAKZ9536RB;
+					};
+					5898EC3F1C382D89005F8D48 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = MAKZ9536RB;
+						TestTargetID = 5898EC261C382D89005F8D48;
+					};
+					5898EC4A1C382D89005F8D48 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = MAKZ9536RB;
+						TestTargetID = 5898EC261C382D89005F8D48;
+					};
+				};
+			};
+			buildConfigurationList = 5898EC221C382D89005F8D48 /* Build configuration list for PBXProject "Core Spotlight的索引器" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5898EC1E1C382D89005F8D48;
+			productRefGroup = 5898EC281C382D89005F8D48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5898EC261C382D89005F8D48 /* Core Spotlight的索引器 */,
+				5898EC3F1C382D89005F8D48 /* Core Spotlight的索引器Tests */,
+				5898EC4A1C382D89005F8D48 /* Core Spotlight的索引器UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5898EC251C382D89005F8D48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5898EC6E1C383FC4005F8D48 /* DXViewController.xib in Resources */,
+				5898EC3A1C382D89005F8D48 /* LaunchScreen.storyboard in Resources */,
+				5898EC671C3835F1005F8D48 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5898EC3E1C382D89005F8D48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5898EC491C382D89005F8D48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5898EC231C382D89005F8D48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5898EC621C382E87005F8D48 /* DataSource.m in Sources */,
+				5898EC2F1C382D89005F8D48 /* AppDelegate.m in Sources */,
+				5898EC5F1C382E49005F8D48 /* Person.m in Sources */,
+				5898EC2C1C382D89005F8D48 /* main.m in Sources */,
+				5898EC6D1C383FC4005F8D48 /* DXViewController.m in Sources */,
+				5898EC651C383283005F8D48 /* FriendTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5898EC3C1C382D89005F8D48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5898EC451C382D89005F8D48 /* Core_Spotlight____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5898EC471C382D89005F8D48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5898EC501C382D89005F8D48 /* Core_Spotlight____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5898EC421C382D89005F8D48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5898EC261C382D89005F8D48 /* Core Spotlight的索引器 */;
+			targetProxy = 5898EC411C382D89005F8D48 /* PBXContainerItemProxy */;
+		};
+		5898EC4D1C382D89005F8D48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5898EC261C382D89005F8D48 /* Core Spotlight的索引器 */;
+			targetProxy = 5898EC4C1C382D89005F8D48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5898EC381C382D89005F8D48 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5898EC391C382D89005F8D48 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5898EC521C382D89005F8D48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5898EC531C382D89005F8D48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5898EC551C382D89005F8D48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Core Spotlight的索引器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.110.Core-Spotlight----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5898EC561C382D89005F8D48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Core Spotlight的索引器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.110.Core-Spotlight----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5898EC581C382D89005F8D48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Core Spotlight的索引器Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.110.Core-Spotlight----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Core Spotlight的索引器.app/Core Spotlight的索引器";
+			};
+			name = Debug;
+		};
+		5898EC591C382D89005F8D48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Core Spotlight的索引器Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.110.Core-Spotlight----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Core Spotlight的索引器.app/Core Spotlight的索引器";
+			};
+			name = Release;
+		};
+		5898EC5B1C382D89005F8D48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Core Spotlight的索引器UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.110.Core-Spotlight----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Core Spotlight的索引器";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5898EC5C1C382D89005F8D48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Core Spotlight的索引器UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.110.Core-Spotlight----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Core Spotlight的索引器";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5898EC221C382D89005F8D48 /* Build configuration list for PBXProject "Core Spotlight的索引器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5898EC521C382D89005F8D48 /* Debug */,
+				5898EC531C382D89005F8D48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5898EC541C382D89005F8D48 /* Build configuration list for PBXNativeTarget "Core Spotlight的索引器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5898EC551C382D89005F8D48 /* Debug */,
+				5898EC561C382D89005F8D48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5898EC571C382D89005F8D48 /* Build configuration list for PBXNativeTarget "Core Spotlight的索引器Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5898EC581C382D89005F8D48 /* Debug */,
+				5898EC591C382D89005F8D48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5898EC5A1C382D89005F8D48 /* Build configuration list for PBXNativeTarget "Core Spotlight的索引器UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5898EC5B1C382D89005F8D48 /* Debug */,
+				5898EC5C1C382D89005F8D48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5898EC1F1C382D89005F8D48 /* Project object */;
+}
